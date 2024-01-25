@@ -96,7 +96,7 @@ body{
 	color: #BE963F;
 }
 .btn {
-	background: #abd1ff;
+	background: #53add7;
     font-weight: 800;
     text-align: center;
     text-transform: uppercase;
@@ -119,7 +119,7 @@ input, button, textarea {
     font-weight: inherit;
 }
 .btn:hover{
-	box-shadow: 0px 6px 5px 2px #4b7395;
+	box-shadow: 0px 6px 5px 2px #2f4d66;
 }
 .flex{
 	display: flex;
@@ -128,7 +128,7 @@ input, button, textarea {
 .header{
 	justify-content: space-around;
     padding: 2% 0 2%;
-	background: #69c2c1;
+	background: #2d5eff;
 }
 nav{
 margin-top: 18px;
@@ -148,7 +148,7 @@ margin-top: 18px;
    font-weight: 500;
    line-height: normal;
    margin-right: 35px;
-   transition: 0.5s;
+   transition: 0.3s;
    }
 .header_link:hover,
 .phon:hover{
@@ -178,7 +178,7 @@ width: 529px;
 .stroke{
 	padding: 100px 0;
 }
-.footer_link{
+/* .footer_link{
 	color: black;
 }
 .footer_img{
@@ -190,4 +190,33 @@ width: 529px;
 footer{
 	background: #69c2c1;
 	padding: 2% 0 2%;
+}
+.footer_list{
+	margin: 0 90px;
+}
+.ic{
+	margin: 0 3%;
+	width: 60%;
+}
+.footer_icon{
+	width: 87px;
+} */
+
+footer{
+	background: #2d5eff;
+	padding: 2% 0 2%;
+}
+.footer_img{
+	padding-top: 4%;
+	margin: 0 3%;
+	width: 33%;
+}
+.footer_photo{
+	width: 33%;
+}
+.footer_logo{
+	width: 44%;
+}
+.head_icon{
+	width: 6%;
 }
