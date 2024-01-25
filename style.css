@@ -1,0 +1,163 @@
+html,body{
+	height: 100%;
+}
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.clearfix::after{
+ clear: both;
+ content: "";
+ display: table;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+ul li:last-child{
+	margin-bottom: 0;
+}
+img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+button,
+label{
+	cursor: pointer;
+}
+input,
+button,
+textarea{
+	background: none;
+	border: none;
+	outline: none;
+	display: block;
+	width: 100%;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}
+input[type="radio"],
+input[type="checkbox"]{
+	display: none;
+}
+input::placeholder {
+	color: inherit;
+}
+button{
+	cursor: pointer;
+}
+input, 
+textarea{
+	display: block;
+	resize: none;
+}
+body{
+	font-size: 14px;
+	line-height: 19px;
+	color: #242424;
+	width: 100%;
+	font-family: 'Manrope', arial, sans-serif;
+}
+.container{
+	max-width: 1325px;
+	width: 100%;
+	min-width: 320px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.dn{
+	display: none;
+}
+section{
+	padding: 100px 0;
+}
+.sec_tit{
+	font-weight: 800;
+	font-size: 42px;
+	line-height: 57px;
+	text-align: center;
+	margin: 0 auto;
+}
+.color{
+	color: #BE963F;
+}
+.dib{
+	display: inline-block;
+}
+.hover{
+	transition: 0.3s;
+}
+.hover:hover{
+	color: #BE963F;
+}
+.btn {
+	background: #1e84ff;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    height: 42px;
+    width: 10%;
+    transition: 0.3s;
+}
+button {
+    cursor: pointer;
+}
+input, button, textarea {
+    background: none;
+    border: none;
+    outline: none;
+    display: block;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+.btn:hover{
+	box-shadow: 0px 6px 5px 2px #0b528c;
+}
+.flex{
+	display: flex;
+}
+.header{
+	justify-content: space-around;
+	padding-top: 50px;
+	background: #002fed;
+}
+.phon:hover{
+ color: #656363;
+}
+.phon {
+  color: #000000;
+  font-family: Open Sans;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  transition: 0.8s;
+}
+.header_link {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  margin-right: 25px;
+  transition: 0.5s;
+}
+.header_link:hover{
+ color: #656363;
+}
+.logotip{
+	width: 19%;
+    height: 67%;
+}
